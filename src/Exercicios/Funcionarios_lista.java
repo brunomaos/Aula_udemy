@@ -13,6 +13,7 @@ public class Funcionarios_lista {
         //creat new list of employee
         List<Attributes> list_funcioario = new ArrayList<>(); 
         
+        System.out.print("Enter the number of company employees : ");
         int help = input.nextInt();
         
         for(int i =0 ; i< help ; ++i){
